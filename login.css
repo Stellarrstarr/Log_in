@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    background-color: rgb(112, 97, 97);
+}
+.form_page{
+    background-color: royalblue;
+    width: 30%;
+    margin: 10em auto;
+    padding: 10px 20px;
+}
+.form_page h1{
+    text-align: center;
+    padding-block: 15px;
+}
+form{
+    width: 90%;
+    margin: auto;
+
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.input_info label{
+    font-size: 18px;
+}
+.input_info input{
+    padding:7px;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 5px;outline: none;
+    color: black;
+
+}
+.input_info input:focus{
+margin-bottom: 5px solid black;
+border: none;
+}
+.btn input{
+    color: #333;
+    border: none;
+    padding: 5px 30px;
+    margin: 10px 20px 10px;
+}
+.btn input:focus{
+    background-color: #333;
+    color: #fff;
+}
+.links a{
+    text-decoration: none;
+}
+.links a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.links a:focus{
+    color: red;
+}
+.links a:visited{
+    color: purple;
+}
